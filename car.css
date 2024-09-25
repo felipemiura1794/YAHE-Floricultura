@@ -1,0 +1,139 @@
+body {
+    font-family: minhaFonte;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.product h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: #f0a1ef;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px; /* Ajuste do padding */
+    cursor: pointer;
+    margin-top: auto; /* Mover para a parte inferior do contêiner */
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #f0a1ef;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-from-cart {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-from-cart:hover {
+    background-color: #c82333;
+}
+
+.checkout {
+    background-color: #56013e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.checkout:hover {
+    background-color: #56013e;
+}
+
+nav {
+    background-color: #f0a1ef;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.div4 {
+    float: left;
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+nav a:hover {
+    background-color: #ffb6ff;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+button {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
