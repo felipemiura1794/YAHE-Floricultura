@@ -1,0 +1,64 @@
+footer {
+    padding: 40px 0;
+    background-color: #f8f9fa; /* Cor suave para o rodapé */
+    border-top: 1px solid #ddd;
+    text-align: center; /* Centraliza os textos */
+  }
+  footer h5 {
+    color: #ca1c63; /* Cor do título */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  footer p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  footer a {
+    color: #ca1c63; /* Cor de links */
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .form-control {
+    width: 100%;
+    max-width: 400px; /* Limita a largura do formulário */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 auto; /* Centraliza o formulário */
+  }
+  .btn-primary {
+    background-color: #ca1c63;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    background-color: #a31750;
+  }
+  .social-icons {
+    margin-top: 20px;
+  }
+  .social-icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #ca1c63;
+  }
+  .contact-info {
+    margin-top: 30px;
+  }
+  @media (max-width: 768px) {
+    .imagem-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .imagem-mobile {
+        display: none;
+    }
+}
